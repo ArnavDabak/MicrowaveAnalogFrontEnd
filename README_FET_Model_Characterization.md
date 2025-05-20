@@ -100,27 +100,8 @@ This project characterizes a FET device using both DC and high-frequency simulat
 
 ## 🧪 Tools Used
 
-- Circuit simulation software (e.g., ADS / Cadence / LTspice)
+- Circuit simulation software (Keysight ADS)
 - S-parameter and AC analysis blocks
 - Custom calculation blocks for \( g_m \), \( f_T \), \( f_{max} \), and stability
 
 ---
-
-## 📁 Repository Structure (Suggested)
-
-```
-📦FET-Characterization
- ┣ 📜README.md
- ┣ 📁docs
- ┃ ┗ 📄Task 1.docx
- ┣ 📁plots
- ┃ ┣ 📊 IV_Characteristics.png
- ┃ ┣ 📊 gm_vs_Vgs.png
- ┃ ┣ 📊 S21_vs_freq.png
- ┃ ┣ 📊 MAG_vs_freq.png
- ┃ ┗ 📊 Stability_Plots.png
- ┗ 📁simulations
-    ┣ 📄 DC_Operating_Point.sim
-    ┣ 📄 S_Param.sim
-    ┗ 📄 Stability_Analysis.sim
-```
